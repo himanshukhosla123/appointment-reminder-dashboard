@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+    
+<!--    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">-->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+<link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.0.0-beta.3/dist/css/bootstrap-material-design.min.css" integrity="sha384-k5bjxeyx3S5yJJNRD1eKUMdgxuvfisWKku5dwHQq9Q/Lz6H8CyL89KF52ICpX4cL" crossorigin="anonymous">
+<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+   
+   
+   <!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="text-center" id="myModalLabel">Are you ready to see Sarah in action ?</h4>
+        
+        <button type="button" class="close pull-right" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="">&times;</span></button>
+      </div>
+      <div class="modal-body text-center">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Watch Demo Again</button>
+        <button type="button" class="btn btn-primary">Lets get Started</button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close pull-right" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="">&times;</span></button>
+      </div>
+      <div class="modal-body">
+        <h4 class="text-center">You have to watch the complete video to add numbers .</h4>
+      </div>
+    </div>
+  </div>
+</div>  
+   
+   <div class="container-fluid">
+
+    <ul class="cd-breadcrumb triangle nav nav-tabs" role="tablist">
+        <li role="presentation">
+            <a href="#Ideate" aria-controls="ideate" role="tab" data-toggle="tab" aria-expanded="true" class="active">
+                Demo Video
+            </a>
+        </li>
+        <li role="presentation" class="">
+            <a href="#Submit" aria-controls="submit" role="tab" data-toggle="tab" aria-expanded="false">
+                Add Numbers
+            </a>
+        </li>
+        <li role="presentation" class="">
+            <a href="#Discuss" aria-controls="discuss" role="tab" data-toggle="tab" aria-expanded="false">
+                Dialing
+            </a>
+        </li>
+        <li role="presentation" class="">
+            <a href="#GetValidated" aria-controls="get-validated" role="tab" data-toggle="tab" aria-expanded="false">
+                Report
+            </a>
+        </li>
+    </ul>
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="Ideate">
+         <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal</button>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="Submit">
+        
+        <div class="new-patient-box text-center none">
+           <button class="btn btn-primary">
+            <img src="data:image/svg+xml;base64,
+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgNTIgNTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUyIDUyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjUxMiIgaGVpZ2h0PSI1MTIiIGNsYXNzPSIiPjxnPjxwYXRoIGQ9Ik0yNiwwQzExLjY2NCwwLDAsMTEuNjYzLDAsMjZzMTEuNjY0LDI2LDI2LDI2czI2LTExLjY2MywyNi0yNlM0MC4zMzYsMCwyNiwweiBNMzguNSwyOEgyOHYxMWMwLDEuMTA0LTAuODk2LDItMiwyICBzLTItMC44OTYtMi0yVjI4SDEzLjVjLTEuMTA0LDAtMi0wLjg5Ni0yLTJzMC44OTYtMiwyLTJIMjRWMTRjMC0xLjEwNCwwLjg5Ni0yLDItMnMyLDAuODk2LDIsMnYxMGgxMC41YzEuMTA0LDAsMiwwLjg5NiwyLDIgIFMzOS42MDQsMjgsMzguNSwyOHoiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIGNsYXNzPSJhY3RpdmUtcGF0aCIgc3R5bGU9ImZpbGw6I0NDQ0NDQyIgZGF0YS1vbGRfY29sb3I9IiNjY2NjY2MiPjwvcGF0aD48L2c+IDwvc3ZnPg==" />
+       <h4 class="grey text-center">Click to add your first patient appointment details</h4>
+       </button>
+        </div>
+        
+        <div class="row new-patient-form none">
+           
+          <div class="col-sm-4">
+               <div class="form-group">
+                <label for="patientno" class="bmd-label-floating">Patient mobile number</label>
+                <input type="tel" class="form-control" id="patientno">
+              </div>
+              
+          </div>
+          
+           <div class="col-xl-8">
+            <div class="form-group">
+                <label for="name" class="bmd-label-floating">Patient Name</label>
+                <input type="text" class="form-control" id="name">
+              </div>   
+           </div>
+            
+            <div class="col-xl-6">
+            <div class="form-group">
+                <label for="docname" class="bmd-label-floating">Doctor Name</label>
+                <input type="text" class="form-control" id="docname">
+              </div>   
+           </div>
+           
+            <div class="col-xl-3">
+            <div class="form-group">
+                <label for="age" class="bmd-label-floating">Patient Age</label>
+                <input type="number" class="form-control" id="age">
+              </div>   
+           </div>
+           
+           <div class="col-xl-3">
+            <div class="form-group">
+                <label for="lang" class="bmd-label-floating">Call Language</label>
+                <input type="text" class="form-control" id="lang" list="language">
+                <datalist id="language">
+                    <option value="English">English</option>
+                    <option value="French">French</option>
+                    <option value="Sutch">Sutch</option>
+                    <option value="Italian">Italian</option>
+                    <option value="English(India)">English(India)</option>
+                    <option value="Englis(British)">Englis(British)</option>
+                    <option value="Greek">Greek</option>
+                    <option value="Spanish">Spanish</option>
+                    <option value="Deutsch">Deutsch</option>
+                </datalist>
+              </div>   
+           </div>
+    <div class="row col-xl-12">       
+        <div class="col-xl-6" style="float:none;margin:auto; padding:0px;">
+            <div class="col-xl-6 pull-left">
+            <div class="form-group">
+                <label for="date" class="bmd-label-floating">Appointment Date</label>
+                <input type="date" class="form-control" id="date">
+              </div>   
+           </div>
+           <div class="col-xl-6 pull-left">
+            <div class="form-group">
+                <label for="time" class="bmd-label-floating">Patient Name</label>
+                <input type="time" class="form-control" id="name">
+              </div>   
+           </div>
+    </div>        
+        </div>
+          
+        <div class="col-xl-12 text-center">
+           <div class="col-xl-12 btn-row">
+            <button class="btn btn-primary btn-lg">Reset</button>
+            
+            <button class="btn btn-primary btn-lg">Dial</button>
+            </div>
+        </div>        
+           
+        </div>  
+        
+        <div class="patient-list">
+        <div class="container">   
+            <div class="row">
+            
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body btn">
+        <h4 class="card-title">Special title treatment</h4>
+          <div class="row card-text">
+              <div class="col-xl-12">
+                  <div class="col-xl-9 pull-left">
+                      <h2>Demo Name</h2>
+                      <h5><span class="date">25/01/1997 </span> <span class="time"> 4:00 p.m.</span></h5>
+                  </div>
+                  <div class="col-xl-3 pull-left">
+                      <div class="age text-center">35 years</div>
+                      <a href="#" class="btn btn-primary btn-block">
+                          en-us
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body btn btn-primary">
+       <img src="data:image/svg+xml;base64,
+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgNTIgNTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUyIDUyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjUxMiIgaGVpZ2h0PSI1MTIiIGNsYXNzPSIiPjxnPjxwYXRoIGQ9Ik0yNiwwQzExLjY2NCwwLDAsMTEuNjYzLDAsMjZzMTEuNjY0LDI2LDI2LDI2czI2LTExLjY2MywyNi0yNlM0MC4zMzYsMCwyNiwweiBNMzguNSwyOEgyOHYxMWMwLDEuMTA0LTAuODk2LDItMiwyICBzLTItMC44OTYtMi0yVjI4SDEzLjVjLTEuMTA0LDAtMi0wLjg5Ni0yLTJzMC44OTYtMiwyLTJIMjRWMTRjMC0xLjEwNCwwLjg5Ni0yLDItMnMyLDAuODk2LDIsMnYxMGgxMC41YzEuMTA0LDAsMiwwLjg5NiwyLDIgIFMzOS42MDQsMjgsMzguNSwyOHoiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIGNsYXNzPSJhY3RpdmUtcGF0aCIgc3R5bGU9ImZpbGw6I0NDQ0NDQyIgZGF0YS1vbGRfY29sb3I9IiNjY2NjY2MiPjwvcGF0aD48L2c+IDwvc3ZnPg==" />
+       <h5 class="text-center">Click to add patient 2</h5>
+      </div>
+    </div>
+  </div>
+  
+   <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Special title treatment</h4>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Special title treatment</h4>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+  
+</div>
+      
+      <div class="text-center" style="margin-top:70px;">
+          <button class="btn btn-primary btn-lg">Reset</button>
+          <button class="btn btn-primary btn-lg">Dial</button>
+      </div>
+       </div>
+        </div>
+        
+        </div>
+        
+        <div role="tabpanel" class="tab-pane" id="Discuss">
+        
+        
+        <div class="dial-list">
+        <div class="container">   
+            <div class="row">
+            
+  
+ <div class="col-sm-6">
+    <div class="card dialing">
+      <div class="card-body btn">
+        <h4 class="card-title">Special title treatment</h4>
+          <div class="row card-text">
+              <div class="col-xl-12">
+                <div class="col-xl-4 pull-left">
+                    <img src="assets/images/old-telephone-ringing%20(2).png" alt="">
+                </div>
+                <div class="col-xl-8 pull-left">
+                   <h4>Dialing</h4>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card oncall">
+      <div class="card-body btn">
+        <h4 class="card-title">Special title treatment</h4>
+          <div class="row card-text">
+              <div class="col-xl-12">
+                <div class="col-xl-4 pull-left">
+                    <img src="assets/images/old-telephone-ringing%20(2).png" alt="">
+                </div>
+                <div class="col-xl-8 pull-left">
+                   <h4>On Call</h4>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card noresponse">
+      <div class="card-body btn">
+        <h4 class="card-title">Special title treatment</h4>
+          <div class="row card-text">
+              <div class="col-xl-12">
+                <div class="col-xl-4 pull-left">
+                    <img src="assets/images/old-telephone-ringing%20(2).png" alt="">
+                </div>
+                <div class="col-xl-8 pull-left">
+                   <h4>No Response</h4>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card unreach">
+      <div class="card-body btn">
+        <h4 class="card-title">Special title treatment</h4>
+          <div class="row card-text">
+              <div class="col-xl-12">
+                <div class="col-xl-4 pull-left">
+                    <img src="assets/images/old-telephone-ringing%20(2).png" alt="">
+                </div>
+                <div class="col-xl-8 pull-left">
+                   <h4>Unreachable</h4>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+      
+       </div>
+        </div>
+        
+        </div>
+        <div role="tabpanel" class="tab-pane" id="GetValidated">
+            <h3>No Report Generated</h3>
+        </div>
+    
+   </div>
+   
+
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>       -->
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/bootstrap-material-design@4.0.0-beta.3/dist/js/bootstrap-material-design.js" integrity="sha384-hC7RwS0Uz+TOt6rNG8GX0xYCJ2EydZt1HeElNwQqW+3udRol4XwyBfISrNDgQcGA" crossorigin="anonymous"></script>
+<script src="assets/js/main.js"></script> 
+<script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>  
+</body>
+</html>
